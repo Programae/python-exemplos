@@ -4,7 +4,8 @@ Programaê - Python
 http://programae.org.br
 '''
 from turtle import *
-
+setup(width=960, height=720, startx=0, starty=0)
+title("Plano Cartesiano")
 # define o "desenhista"
 professor = Turtle()
 bgpic("plano_cartesiano.png")
@@ -20,35 +21,35 @@ professor.direita = professor.right
 professor.esquerda = professor.left
 
 # desenha um triângulo
-professor.avance(100)
+professor.avance(150)
 
 professor.home() # volta pra posição inicial
 professor.esquerda(-45) # -45 graus
-professor.avance(100)
+professor.avance(150)
 
 professor.home() # volta pra posição inicial
 professor.esquerda(-90) # -45 graus
-professor.avance(100)
+professor.avance(150)
 
 professor.home() # volta pra posição inicial
 professor.esquerda(-90 + -45) # -135 graus
-professor.avance(100)
+professor.avance(150)
 
 professor.home() # volta pra posição inicial
 professor.esquerda(-180) # -45 graus
-professor.avance(100)
+professor.avance(150)
 
 professor.home() # volta pra posição inicial
 professor.esquerda(-180-45) # -45 graus
-professor.avance(100)
+professor.avance(150)
 
 professor.home() # volta pra posição inicial
 professor.esquerda(90) # 90 graus
-professor.avance(100)
+professor.avance(150)
 
 professor.home() # volta pra posição inicial
 professor.esquerda(45) # 45 graus
-professor.avance(100) # 100 passos
+professor.avance(150) # 100 passos
 
 professor.home() # volta pra posição inicial
 
