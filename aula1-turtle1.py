@@ -12,16 +12,15 @@ professor = Turtle()
 professor.shape("turtle")
 professor.showturtle()
 
-
 '''
 Mapeamento das regras
 
 Dica: crie junto com seus alunos estas regras de movimentação.
 
-____.avance(pixels) -> anda com a tartaruga o numero de pixels no plano x,y
-____.recue(angulo)
-____.direita(angulo)
-____.esquerda(angulo)
+____.avance(passos) -> avança com a tartaruga o número de passos especificado
+____.recue(passos) -> recua com a tartura o número de passos especificado
+____.direita(ângulo) -> vira pra "direta" o numero de graus especificado
+____.esquerda(ângulo) -> vira pra "esquerda" o numero de graus especificado
 '''
 
 professor.avance = professor.forward
