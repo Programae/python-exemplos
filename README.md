@@ -4,6 +4,7 @@ Exemplos Python
 Exemplos de código para trabalhar em sala de aula.
 
 Linguagem: [Python](http://www.python.org)
+
 Versão: 3.x
 
 Onde fazer o download? 
@@ -25,7 +26,8 @@ Lembre-se o Python é um software livre e gratuito.
 [CONTRIBUIÇÕES](https://github.com/Programae/python-exemplos/pulls) são bem vindas
 
 
-Tiago Maluta ([@maluta](https://www.twitter.com/maluta) 
+Tiago Maluta ([@maluta](https://www.twitter.com/maluta))
+
 [programae.org.br](http://programae.org.br)
 
 
