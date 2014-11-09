@@ -1,6 +1,6 @@
 '''
 Exemplo Aula #1
-Programae - Python
+Programaê - Python
 http://programae.org.br
 '''
 from turtle import *
