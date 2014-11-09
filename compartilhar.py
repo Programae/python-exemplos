@@ -1,11 +1,25 @@
 '''
-  Compartilhe arquivos na rede local
-  Utilize este script para compilhar arquivos com as máquinas do laboratório.
+  COMPARTILHE ARQUIVO NA REDE LOCAL
+
+  Utilize este script para compilhar arquivos entre as máquinas do laboratório.
+
+  Pré-requisito: ter o Python 3.x instalado na máquina
 
   Como utilizar?
-  1. Copie o arquivo compartilhar.py para a pasta onde você quer disponibilizar.
-  2. Execute o programa e espere o browser iniciar.
+  1. Copie o arquivo "compartilhar.py" para a pasta onde você quer compartilhar
+     os arquivos.
+  2. Duplo clique no arquivo "compartilhar.py" e espere o navegador iniciar.
   3. Pegue o endereço da URL e compartilhe com os alunos.
+
+  Importante:
+
+  - Este endereço só é válido na rede local
+  - Se você fechar o programa o compartilhamento irá parar
+  - Se você constatar problemas de acentuação nos arquivos verifique a codificação
+    da página. TODOS os arquivos .py são codificador em UTF-8.
+
+    Se tiver algum problema escreva para:
+    Tiago Maluta <tiago.maluta@gmail.com>
 '''
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import webbrowser
