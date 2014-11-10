@@ -3,6 +3,11 @@ Exemplos Python
 
 Exemplos de código para trabalhar em sala de aula.
 
+Para testar, basta rodar:
+
+	python3 aulas.py
+
+
 Linguagem: [Python](http://www.python.org)
 
 Versão: 3.x
