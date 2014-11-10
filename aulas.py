@@ -1,4 +1,9 @@
-'''
+'''  aulas.py
+
+     Ao iniciar a aula execute este arquivo no seu computador e compartilhe
+     a URL com os alunos.
+
+     Tiago Maluta <tiago.maluta@gmail.com>
 '''
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import webbrowser
@@ -9,7 +14,6 @@ import os
 lessons = ["Aula1","Aula2"]
 pyfiles = []
 pyfiles_len = []
-
 
 html = ""
 preface = '''<!DOCTYPE html>
