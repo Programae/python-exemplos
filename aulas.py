@@ -10,6 +10,7 @@ import webbrowser
 import socket
 import glob
 import os
+import codecs
 
 lessons = ["Aula1","Aula2"]
 pyfiles = []
@@ -113,9 +114,8 @@ for files in zip(lessons,pyfiles):
 html += '    </div>'
 html += suffix
 
-f = open("index.html",'w')
-f.write(html)
-f.close()
+with codecs.open('index.html','w',encoding='utf8') as f:
+    f.write(html)
 
 try:
     ip = [(s.connect(('8.8.8.8', 80)), s.getsockname()[0], s.close()) for s in [socket.socket(socket.AF_INET, socket.SOCK_DGRAM)]][0][1]
