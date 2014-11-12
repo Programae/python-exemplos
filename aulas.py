@@ -12,7 +12,7 @@ import glob
 import os
 import codecs
 
-lessons = ["Aula1","Aula2"]
+lessons = ["Aula1","Aula2", "Aula3", "Pygame"]
 pyfiles = []
 pyfiles_len = []
 
@@ -82,6 +82,7 @@ html += '<div class="panel-group" id="accordion" role="tablist" aria-multiselect
 
 for files in zip(lessons,pyfiles):
     s_m = '<ul class="list-group">'
+    files[1].sort()
     for f in files[1]:
         if "resposta" in f:
             pass
