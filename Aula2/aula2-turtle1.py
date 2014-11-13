@@ -7,7 +7,7 @@ from turtle import *
 
 # define o "desenhista"
 professor = Turtle()
-bgpic("plano_cartesiano.png")
+bgpic("plano_cartesiano.gif")
 
 # personalizações: mostra o desenho da tartaruga
 professor.shape("turtle")

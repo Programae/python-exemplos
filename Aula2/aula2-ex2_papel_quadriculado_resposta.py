@@ -6,7 +6,7 @@ http://programae.org.br
 from turtle import *
 setup(width=960, height=720, startx=0, starty=0)
 title("Exercício 2 - Aula 2")
-bgpic("ex2_papel_quadriculado.png")
+bgpic("ex2_papel_quadriculado.gif")
 # substitua XXXXX pelo seu nome em todos os lugares que aparecer
 
 # define o "desenhista"

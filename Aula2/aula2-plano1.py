@@ -8,7 +8,7 @@ setup(width=960, height=720, startx=0, starty=0)
 title("Plano Cartesiano")
 # define o "desenhista"
 professor = Turtle()
-bgpic("plano_cartesiano.png")
+bgpic("plano_cartesiano.gif")
 
 # personalizações: mostra o desenho da tartaruga
 professor.shape("turtle")

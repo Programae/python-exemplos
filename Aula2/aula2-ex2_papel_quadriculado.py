@@ -10,7 +10,7 @@ setup(width=960, height=720, startx=0, starty=0)
 
 # define o "desenhista"
 XXXXX = Turtle()
-bgpic("ex2_papel_quadriculado.png")
+bgpic("ex2_papel_quadriculado.gif")
 XXXXX.pensize(5)
 
 # personalizações: mostra o desenho da tartaruga
