@@ -1,0 +1,9 @@
+
+
+Pygame para Python3.4 (32 bits) 
+http://www.lfd.uci.edu/~gohlke/pythonlibs/wyxyx8e9/pygame-1.9.2a0.win32-py3.4.exe
+
+Pygame para Python3.4 (64 bits) 
+http://www.lfd.uci.edu/~gohlke/pythonlibs/wyxyx8e9/pygame-1.9.2a0.win-amd64-py3.4.exe
+
+
