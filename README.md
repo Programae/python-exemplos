@@ -18,8 +18,11 @@ Onde fazer o download?
 
 Dê preferência sempre para a última versão do Python. 
 
-[Python 3.4.2 (32 bits)](https://www.python.org/ftp/python/3.4.2/python-3.4.2.msi)
-[Python 3.4.2 (64 bits)](https://www.python.org/ftp/python/3.4.2/python-3.4.2.msi)
+
+[Python 3.4.2 (p/ WINDOWS 32 bits)](https://www.python.org/ftp/python/3.4.2/python-3.4.2.msi)
+-
+[Python 3.4.2 (p/ WINDOWS 64 bits)](https://www.python.org/ftp/python/3.4.2/python-3.4.2.msi)
+
 
 
 **Ubuntu** (Linux)
