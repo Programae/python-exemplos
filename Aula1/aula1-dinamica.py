@@ -9,7 +9,7 @@ setup(width=960, height=720, startx=0, starty=0)
 
 # define o "desenhista"
 professor = Turtle()
-bgpic("papel_quadriculado.png")
+bgpic("papel_quadriculado.gif")
 professor.pensize(5)
 
 # personalizações: mostra o desenho da tartaruga
