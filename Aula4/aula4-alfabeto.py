@@ -14,7 +14,7 @@ print("  |____/    ")
 print("    ____    ")
 print("   / ___|   ")
 print("   | |      ")
-print("   | |___   ")
+print("   | |__    ")
 print("   \____|   ")
   
 print("   ____     ")

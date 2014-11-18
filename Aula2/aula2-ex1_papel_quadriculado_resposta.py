@@ -30,7 +30,10 @@ professor.avance(140)
 professor.esquerda(90)
 professor.avance(140)
 # FIM
-
+professor.color("white")
+professor.goto(-115, -92)
+professor.color("black")
+professor.write("Anyone Can Learn", None, None, "24pt bold")
 
 # espera um clique do mouse pra sair
 exitonclick()
